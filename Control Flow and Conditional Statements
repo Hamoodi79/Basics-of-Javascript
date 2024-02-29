@@ -1,1 +1,42 @@
+// If statement 
+var num = 10;
+
+if (num > 0) {
+  console.log("The number is positive.");
+}
+
+// If-else statement
+var age = 18;
+
+if (age >= 18) {
+  console.log("You are eligible to vote.");
+} else {
+  console.log("You are not eligible to vote yet.");
+}
+
+// Switch statement
+var day = "Monday";
+var message;
+
+switch (day) {
+  case "Thursday":
+    message = "It's Monday, the start of the week.";
+    break;
+  case "Tuesday":
+    message = "It's Tuesday, the week is in progress.";
+    break;
+  case "Wednesday":
+    message = "It's Wednesday, halfway through the week.";
+    break;
+  case "Thursday":
+    message = "It's Thursday, almost there!";
+    break;
+  case "Friday":
+    message = "It's Friday, a day for Jumuah Prayer!";
+    break;
+  default:
+    message = "It's the weekend, time to work and Relax too";
+}
+
+console.log(message);
 
