@@ -1,23 +1,23 @@
 // For loop for iterating over an array
-var numbers = [1, 2, 3, 4, 5];
+let numbers = [1, 2, 3, 4, 5];
 
-for (var i = 0; i < numbers.length; i++) {
+for (let i = 0; i < numbers.length; i++) {
   console.log(numbers[i]);
 }
 
 // For...in loop for iterating over an object
-var person = {
-  name: "John",
-  age: 30,
-  occupation: "Engineer"
+let person = {
+  name: "Abdulhamid",
+  age: 22,
+  occupation: "Software Engineer"
 };
 
-for (var key in person) {
+for (let key in person) {
   console.log(key + ": " + person[key]);
 }
 
 // While loop for repetitive tasks
-var count = 0;
+let count = 0;
 
 while (count < 5) {
   console.log("Count: " + count);
@@ -25,7 +25,7 @@ while (count < 5) {
 }
 
 // Do...while loop for repetitive tasks
-var i = 0;
+let i = 0;
 
 do {
   console.log("Value of i: " + i);
