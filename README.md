@@ -11,8 +11,8 @@ This repository is my journey to learn JavaScript Which covers various topics an
 - [Arrays](#arrays)
 - [Objects](#objects)
 - [Error Handling](#error-handling)
-- [DOM Manipulation and Events](#dom-manipulation-and-events)
-- [Event Handling](#event-handling)
+- [DOM Manipulation](#dom-manipulation)
+- [Events and Event Handling](#events-and-event-handling)
 
 ## Introduction to JavaScript
 
@@ -46,10 +46,10 @@ Objects are complex data types that store collections of key-value pairs. In thi
 
 Error handling is an important aspect of writing robust JavaScript code. In this section, I learnt about JavaScript's error handling mechanisms, including try-catch statements and throwing custom errors. I also understood how to handle and recover from errors to ensure smooth execution of our programs.
 
-## DOM Manipulation and Events
+## DOM Manipulation 
 
 The Document Object Model (DOM) represents the structure of an HTML document. In this section, I learnt how to manipulate the DOM using JavaScript, modify HTML elements, change styles, add or remove elements dynamically, and more. I also understood how to interact with web pages and create dynamic user experiences.
 
-## Event Handling
+## Events and Event Handling
 
 Events occur when a user interacts with a web page. In this section, I learnt how to handle events in JavaScript, listen for user actions such as clicks, key presses, form submissions, and respond to those events by executing JavaScript code. I also understood how to make our web pages interactive and responsive.
