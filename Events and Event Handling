@@ -1,1 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Event Handling</title>
+</head>
+<body>
+  <button id="myButton">Click</button>
+  <input type="text" id="myInput">
+  
+  <script>
+    // Get the button and input elements
+    const button = document.getElementById('myButton');
+    const input = document.getElementById('myInput');
 
+    // Event handler function for button click
+    function handleClick() {
+      console.log('Button clicked!');
+    }
+
+    // Event handler function for input keypress
+    function handleKeypress(event) {
+      console.log(`Key pressed: ${event.key}`);
+    }
+
+    // Attach event listener for button click
+    button.addEventListener('click', handleClick);
+
+    // Attach event listener for input keypress
+    input.addEventListener('keypress', handleKeypress);
+  </script>
+</body>
+</html>
