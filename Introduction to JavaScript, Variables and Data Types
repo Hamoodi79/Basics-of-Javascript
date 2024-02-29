@@ -11,3 +11,38 @@
   </script>
 </body>
 </html>
+
+// Variable declaration and assignment 
+let name = "Hamoodi";
+let age = 25;
+let isStudent = true;
+let favoriteMeals = ["doroWot", "Pasta", "firfir"];
+
+// Outputting the values
+console.log("Name:", name);
+console.log("Age:", age);
+console.log("Is Hamoodi a Student:", isStudent);
+console.log("My Favorite Meals are:", favoriteMeals);
+
+// Arithmetic operations
+const num1 = 10;
+const num2 = 5;
+
+let addition = num1 + num2;
+let subtraction = num1 - num2;
+let multiplication = num1 * num2;
+let division = num1 / num2;
+let modulus = num1 % num2;
+
+console.log("Addition:", addition); // Output: 15
+console.log("Subtraction:", subtraction); // Output: 5
+console.log("Multiplication:", multiplication); // Output: 50
+console.log("Division:", division); // Output: 2
+console.log("Modulus:", modulus); // Output: 0
+
+// String concatenation
+var firstName = "Abdulhamid";
+var lastName = "Ali";
+
+var fullName = firstName + " " + lastName;
+console.log("Full Name:", fullName); // Output: Abdulhamid Ali
