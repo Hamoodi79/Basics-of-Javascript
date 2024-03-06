@@ -1,8 +1,9 @@
 // Creating an object
-let person = {
+let userProfile = {
   name: "Abdulhamid",
   age: 21,
   occupation: "Backend Engineer",
+  email: "abdulhamidali135@gmail.com"
   sayHello: function() {
     console.log("Hello, my name is " + this.name);
   }
@@ -25,3 +26,17 @@ console.log(person.location); // Output: Addis Ababa
 // Deleting object properties
 delete person.occupation;
 console.log(person); // Output: { name: "Abdulhamid", age: 22, location: "Addis Ababa" }
+
+const bookInventory = {
+    title: "Harry Potter and the Sorcerer's Stone",
+    author: "J.K. Rowling",
+    pages: 320,
+    available: true
+};
+
+// Accessing the properties
+console.log("Title:", harryPotterBook.title);
+console.log("Author:", harryPotterBook.author);
+console.log("Pages:", harryPotterBook.pages);
+console.log("Available:", harryPotterBook.available);
+
