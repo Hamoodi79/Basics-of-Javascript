@@ -31,33 +31,3 @@ do {
   console.log("Value of i: " + i);
   i++;
 } while (i < 5);
-
-// Factorial Calculation 
-function calculateFactorial(n) {
-     if (n === 0 || n === 1) {
-        return 1;
-    } else {
-        let factorial = 1;
-        for (let i = 2; i <= n; i++) {
-            factorial *= i;
-        }
-        return factorial;
-    }
-}
-
-// Fibonnaci Series 
-function getFibonacciSeries(num) {
-    if (num <= 0) {
-        return [];
-    } else if (num === 1) {
-        return [0];
-    } else if (num === 2) {
-        return [0, 1];
-    } else {
-        let fibonacciSeries = [0, 1];
-        for (let i = 2; i < num; i++) {
-            fibonacciSeries.push(fibonacciSeries[i - 1] + fibonacciSeries[i - 2]);
-        }
-        return fibonacciSeries;
-    }
-}
